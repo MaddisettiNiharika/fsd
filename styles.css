@@ -1,0 +1,22 @@
+/* Style table header cells (th) */
+th {
+    background-color: green;
+    text-align: center;
+    padding: 8px;
+    color: Black;
+}
+
+/* Style table data cells (td) */
+td  {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: #90EE90;
+}
+
+/* Add zebra striping to alternate rows */
+td:nth-child(even) {
+     background-color: palegreen;
+}
+
+
+ 
